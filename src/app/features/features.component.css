@@ -1,0 +1,20 @@
+.features-title {
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+
+.features-text {
+    color: white;
+    text-align: center;
+}
+
+hr {
+    background-color: rgba(179, 226, 248, 0.349);
+}
+li {
+    margin: 10px 0;
+}
+ul {
+    background-color: rgba(20, 18, 18, 0.61);
+}

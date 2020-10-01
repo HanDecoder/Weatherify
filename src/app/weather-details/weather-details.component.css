@@ -1,8 +1,26 @@
-table {
-    background: white;
-    opacity: 80%;
-}
 
 .form-group {
     color: white;
+}
+
+table {
+    background-color: rgba(27, 25, 25, 0.815);
+}
+
+hr {
+    background-color: rgba(179, 226, 248, 0.349);
+}
+
+.error {
+    padding-top: 10px;
+    border-radius: 20px;
+    border: crimson solid 2px;
+    color: crimson;
+    background: rgba(255, 255, 255, 0.808);
+    text-align: center;
+    font-size: 30px;
+}
+
+.dropdown {
+    border: 1px  black;
 }
