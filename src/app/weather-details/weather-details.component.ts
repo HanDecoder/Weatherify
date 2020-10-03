@@ -43,7 +43,7 @@ export class WeatherDetailsComponent implements OnInit {
 
   onGetWeather(form: NgForm) {
     this.currentTempMetric = form.value.tempSelect;
-    this.repo.getWeather(form.value.cityName, form.value.tempSelect).subscribe((res: Weather) => {
+    this.repo.getWeather(form.value.cityName.trim(), form.value.tempSelect).subscribe((res: Weather) => {
       this.weather = res;
       this.inputIsValid = true;
     }, (error: any) => {

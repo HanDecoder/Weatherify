@@ -17,7 +17,7 @@ import { FeaturesComponent } from './features/features.component';
     HeaderComponent,
     WeatherDetailsComponent,
     AboutComponent,
-    FeaturesComponent
+    FeaturesComponent,
   ],
   imports: [
     BrowserModule,
